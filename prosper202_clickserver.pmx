@@ -1,7 +1,7 @@
 ---
 name: Prosper202 ClickServer
-description: Prosper202 1.8.10 with Percona and Memcached
-keywords: percona,memcache
+description: Prosper 1.8.10 running on nginx with php-fpm, Percona, and Memcached.
+keywords: ''
 type: Default
 documentation: ''
 images:
@@ -12,4 +12,8 @@ images:
 - name: tutum_memcached
   source: tutum/memcached:latest
   category: Cache
+  type: Default
+- name: maxexcloo_nginx-php
+  source: maxexcloo/nginx-php:latest
+  category: Web Tier
   type: Default
