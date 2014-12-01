@@ -1,0 +1,15 @@
+---
+name: Prosper202 ClickServer
+description: Prosper202 1.8.10 with Percona and Memcached
+keywords: percona,memcache
+type: Default
+documentation: ''
+images:
+- name: dockerfile_percona_latest
+  source: dockerfile/percona:latest
+  category: Storage
+  type: Default
+- name: tutum_memcached
+  source: tutum/memcached:latest
+  category: Cache
+  type: Default
